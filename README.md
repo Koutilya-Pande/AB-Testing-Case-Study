@@ -18,7 +18,7 @@ Null hypothesis (HO): CTR of control (Secure Free Trial) = CTR of experimental (
 Alternative hypothesis (H1): CTR of control != CTR of experimental,<br>
  Statistical significance level (alpha): 0.05 (5%),<br>
  Minimum detectable effect (delta): 10%,<br>
- Statistical test: Two-sample Zest<br>
+ Statistical test: Two-sample Z- test<br>
 
 ## Conclusion:
  Based on the AB test results, the new button ("Enroll Now") has a statistically significant and practically
