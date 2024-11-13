@@ -5,6 +5,8 @@ This Python script is designed to conduct a simulated A/B test, a commonly used 
 ## Business Objective
 Determine whether the new button ("Enroll Now") has a higher click-through rate than the old button("Secure Free Trial").
 
+![Alt text](abimage.png)
+
 ## Method
 - Utilizes numpy and pandas libraries to generate random binary click data (1 = click, 0 = no click).<br>
 - Creates two datasets: df_exp for the experimental group and df_con for the control group.<br>
@@ -19,7 +21,9 @@ Determine whether the new button ("Enroll Now") has a higher click-through rate 
  - Statistical significance level (alpha): 0.05 (5%),<br>
  - Minimum detectable effect (delta): 10%,<br>
  - Statistical test: Two-sample Z- test<br>
-
+## Findings:
+The script provides statistical evidence on whether the new design (experimental group) leads to a higher click rate compared to the control group.
+![Alt text](result.png)
 ## Conclusion:
  Based on the AB test results, the new button ("Enroll Now") has a statistically significant and practically
  significant higher CTR than the old button ("Secure Free Trial"). The business can confidently implement
